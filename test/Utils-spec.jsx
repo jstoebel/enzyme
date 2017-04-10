@@ -598,7 +598,7 @@ describe('Utils', () => {
         expect(displayNameOfNode(<Foo />)).to.equal('Foo');
       });
 
-      it('should return the name even if it is falsey', () => {
+      it('should return the name even if it is falsy', () => {
         const makeFoo = () => () => <div />;
 
         const Foo = makeFoo();
