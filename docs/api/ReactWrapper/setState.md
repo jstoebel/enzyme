@@ -1,4 +1,4 @@
-# `.setState(state[, callback]) => Self`
+# `.setState(nextState[, callback]) => Self`
 
 A method to invoke `setState()` on the root component instance similar to how you might in the
 definition of the component, and re-renders.  This method is useful for testing your component
